@@ -36,7 +36,7 @@ function usuario(){
 
 // Funcion que transforma los segundos a minutos
 function segundos(){
-    let segundos = Number.prompt('Ingrese la cantidad de segundos');
+    let segundos = Number(prompt('Ingrese la cantidad de segundos'));
     // Math para acceder a metodos matematicos y floor redondea al entero menor
     let minutos = Math.floor(segundos/60);
     let restoSegundos = segundos % 60;
